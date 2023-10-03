@@ -1,0 +1,13 @@
+.lang {
+  width: 7em;
+  grid-area: lang;
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: right;
+  align-self: center;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}

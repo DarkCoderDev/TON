@@ -1,0 +1,4 @@
+{
+  "./src/**/*.css": ["npm run stylelint:fix"],
+  "./src/**/*": ["npm run format"]
+}

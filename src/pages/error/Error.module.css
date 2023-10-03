@@ -1,0 +1,5 @@
+.error {
+  color: var(--gray);
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+.topBar {
+  display: grid;
+  grid-template: 100px / 1fr 1fr 1fr;
+  grid-template-areas: 'title  menu lang';
+}
+
+.title {
+  color: var(--white);
+  grid-area: title;
+  align-self: center;
+}

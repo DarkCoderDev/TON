@@ -1,0 +1,17 @@
+.button {
+  padding: 5px 6px;
+  border: none;
+  border-radius: 13px;
+  background: #4470a2;
+  color: var(--white);
+}
+
+.button:active {
+  background: #3a618a;
+  color: #e1dfdfff;
+}
+
+.button:disabled {
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+}

@@ -1,0 +1,31 @@
+.loader {
+  display: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 2px dashed var(--gray);
+  margin: 20px auto;
+  cursor: wait;
+  opacity: 0;
+  animation-name: loading;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  transition: opacity 0.5s ease;
+}
+
+.active {
+  display: block;
+  opacity: 1;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.3);
+  }
+}

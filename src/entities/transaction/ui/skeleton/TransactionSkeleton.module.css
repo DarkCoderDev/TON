@@ -1,0 +1,20 @@
+.skeleton {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  border-bottom: 1px solid #303645;
+  background: var(--blue);
+  cursor: wait;
+}
+
+.content {
+  width: 45%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 13px 0;
+  justify-content: space-between;
+  padding: 2px 9px;
+}

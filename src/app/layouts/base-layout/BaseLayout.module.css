@@ -1,0 +1,18 @@
+.layout {
+  padding: 0 2em;
+  background: var(--bg-primary);
+  min-height: 100vh;
+  display: grid;
+  grid-template: 100px 1fr / 1fr;
+  grid-template-areas:
+    'header  header  header'
+    'main main main';
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}

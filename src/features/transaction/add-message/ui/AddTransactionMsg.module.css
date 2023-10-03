@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.title {
+  text-align: center;
+  color: var(--white);
+}

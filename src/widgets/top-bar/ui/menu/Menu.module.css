@@ -1,0 +1,13 @@
+.menu {
+  color: var(--white);
+  grid-area: menu;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: center;
+  align-self: center;
+}
+
+.link {
+  color: var(--white);
+}

@@ -1,0 +1,10 @@
+@import url('vars/breakpoints.css');
+@import url('vars/colors.css');
+@import url('vars/theme.css');
+@import url('normalize.css');
+@import url('font.css');
+
+:root {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+}

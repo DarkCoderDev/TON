@@ -1,0 +1,13 @@
+.light {
+  --text-primary: var(--dark-blue);
+  --text-secondary: var(--light-blue);
+  --bg-primary: var(--gray);
+  --bg-secondary: var(--white);
+}
+
+.dark {
+  --text-primary: var(--white);
+  --text-secondary: var(--gray);
+  --bg-primary: var(--dark-blue);
+  --bg-secondary: var(--light-blue);
+}

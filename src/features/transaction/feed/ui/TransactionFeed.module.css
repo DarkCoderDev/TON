@@ -1,0 +1,6 @@
+.feed {
+  padding: 5px;
+  min-width: 355px;
+  border-radius: 13px 13px 0 0;
+  background: var(--blue);
+}

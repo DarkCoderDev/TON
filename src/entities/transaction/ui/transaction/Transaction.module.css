@@ -1,0 +1,61 @@
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  border-bottom: 1px solid #303645;
+  background: var(--blue);
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 9px;
+}
+
+.value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+  font-weight: bold;
+}
+
+.textGreen {
+  color: var(--green);
+}
+
+.textWhite {
+  color: var(--white);
+}
+
+.status {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.field {
+  max-width: 116px;
+  max-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--gray);
+}
+
+.msg {
+  color: var(--white);
+  background: var(--light-blue);
+  padding: 5px;
+  border-radius: 13px;
+  max-width: 300px;
+  max-height: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}

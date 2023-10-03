@@ -1,0 +1,10 @@
+.welcomePage {
+  color: var(--gray);
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeHeading {
+  text-align: center;
+  color: var(--white);
+}
